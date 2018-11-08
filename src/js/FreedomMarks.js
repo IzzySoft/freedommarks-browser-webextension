@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             if(debug) console.log('second tab has been activated');
             bookmarkTab.className = "tab-pane";
             dailyTab.className = "tab-pane";
+            searchByTermsOrTags();
             $('#search-terms').focus();
         }
 
